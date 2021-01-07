@@ -23,7 +23,7 @@ public class posts {
 	}
 
 
-	public void setLongitude(float longitude) {
+	public void setLongitude(double longitude) {
 		this.longitude = longitude;
 	}
 
@@ -33,7 +33,7 @@ public class posts {
 	}
 
 
-	public void setLatitude(float latitude) {
+	public void setLatitude(double latitude) {
 		this.latitude = latitude;
 	}
 
@@ -57,7 +57,8 @@ public class posts {
 		this.icon = icon;
 	}
 
-
+	public posts() {};
+	
 	public posts(long id, double longitude, double latitude, String message, int icon) {
 		super();
 		this.id = id;
@@ -65,6 +66,23 @@ public class posts {
 		this.latitude = latitude;
 		this.message = message;
 		this.icon = icon;
+	}
+	
+	public posts(long id, String longitude, String latitude, String message, String icon) {
+		super();
+		this.id = id;
+		this.longitude = Double.parseDouble(longitude);
+		this.latitude = Double.parseDouble(latitude);
+		this.message = message;
+		this.icon = Integer.parseInt(icon);
+	}
+	
+	public posts(String longitude, String latitude, String message, String icon) {
+		super();
+		this.longitude = Double.parseDouble(longitude);
+		this.latitude = Double.parseDouble(latitude);
+		this.message = message;
+		this.icon = Integer.parseInt(icon);
 	}
 
 

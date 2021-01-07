@@ -1,0 +1,15 @@
+D:\Cours\EMSI\VisualStudio\SimulateurDeCapteurs\obj\Debug\SimulateurDeCapteurs.csprojAssemblyReference.cache
+D:\Cours\EMSI\VisualStudio\SimulateurDeCapteurs\obj\Debug\SimulateurDeCapteurs.Form1.resources
+D:\Cours\EMSI\VisualStudio\SimulateurDeCapteurs\obj\Debug\SimulateurDeCapteurs.Properties.Resources.resources
+D:\Cours\EMSI\VisualStudio\SimulateurDeCapteurs\obj\Debug\SimulateurDeCapteurs.csproj.GenerateResource.cache
+D:\Cours\EMSI\VisualStudio\SimulateurDeCapteurs\obj\Debug\SimulateurDeCapteurs.csproj.CoreCompileInputs.cache
+D:\Cours\EMSI\VisualStudio\SimulateurDeCapteurs\bin\Debug\SimulateurDeCapteurs.exe.config
+D:\Cours\EMSI\VisualStudio\SimulateurDeCapteurs\bin\Debug\SimulateurDeCapteurs.exe
+D:\Cours\EMSI\VisualStudio\SimulateurDeCapteurs\bin\Debug\SimulateurDeCapteurs.pdb
+D:\Cours\EMSI\VisualStudio\SimulateurDeCapteurs\bin\Debug\System.Net.Http.Extensions.dll
+D:\Cours\EMSI\VisualStudio\SimulateurDeCapteurs\bin\Debug\System.Net.Http.Formatting.dll
+D:\Cours\EMSI\VisualStudio\SimulateurDeCapteurs\bin\Debug\System.Net.Http.Primitives.dll
+D:\Cours\EMSI\VisualStudio\SimulateurDeCapteurs\bin\Debug\Newtonsoft.Json.dll
+D:\Cours\EMSI\VisualStudio\SimulateurDeCapteurs\obj\Debug\SimulateurDeCapteurs.csproj.CopyComplete
+D:\Cours\EMSI\VisualStudio\SimulateurDeCapteurs\obj\Debug\SimulateurDeCapteurs.exe
+D:\Cours\EMSI\VisualStudio\SimulateurDeCapteurs\obj\Debug\SimulateurDeCapteurs.pdb

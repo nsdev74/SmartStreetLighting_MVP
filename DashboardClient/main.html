@@ -5,6 +5,7 @@
 <title>Plain Leaflet API</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
 integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -15,12 +16,13 @@ crossorigin=""/>
 </style>
 </head>
 <body>
+<div id='alert'></div>
 
 <div id='map'></div>
 
 <script>
 //Auto refresh
-setTimeout("location.reload(true);",10000);
+setTimeout("location.reload(true);",5000);
 //Map setup
     L.mapbox.accessToken = 'pk.eyJ1IjoibnNkZXY3NCIsImEiOiJja2prbGRnOXM1dHljMnpsZ2Y0eDBkMmtoIn0.DUlbCOHLAtfdU2wrVoN48w';
         
@@ -67,6 +69,7 @@ setTimeout("location.reload(true);",10000);
     Http.onreadystatechange = (e) => {
     console.log("JSON fetched.");
     var arr = JSON.parse(Http.responseText);
+    console.log(arr);
     //Marker display
     arr.forEach(element => 
         {
@@ -74,6 +77,9 @@ setTimeout("location.reload(true);",10000);
             {
                 case 0:
                 L.marker([element.longitude, element.latitude], {icon: brokenIcon}).addTo(map).bindPopup(element.message).openPopup()
+
+                document.getElementById('alert').innerHTML = "<div class=\"alert alert-danger\" role=\"alert\"><span class=\"closebtn\" onclick=\"this.parentElement.style.display='none';\">&times;</span>There are one or multiple abnormalities detected, please check the locations below </div> ";
+
                 break;
                 case 1:
                 L.marker([element.longitude, element.latitude], {icon: idleIcon}).addTo(map).bindPopup(element.message).openPopup()
