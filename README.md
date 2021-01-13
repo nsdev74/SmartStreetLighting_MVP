@@ -19,15 +19,6 @@ Installation:
 
 
 
-
-Technologies utilisees:
-
-
--Leaflet.js
--Spring
--Windows Form Application C# .Net
--REST
-
 A ameliorer:
 
 
@@ -36,3 +27,15 @@ A ameliorer:
 -Améliorer l'affichage et faciliter le repérage des luminaires non fonctionnels selon la demo suivante:
 
 ![UpdateDemo](https://s2.gifyu.com/images/SSLmvptry.gif)
+
+
+Technologies utilisees:
+
+
+-Leaflet.js
+
+-Spring
+
+-Windows Form Application C# .Net
+
+-REST
