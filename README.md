@@ -17,13 +17,22 @@ Installation:
 -Pas besoin de compiler le simulateur, le fichier executable est disponible sur [ce lien](SimulationClient/SimulateurDeCapteurs/bin/Debug/SimulateurDeCapteurs.exe).
 
 
+
+
+
 Technologies utilisees:
+
+
 -Leaflet.js
 -Spring
 -Windows Form Application C# .Net
 -REST
 
 A ameliorer:
+
+
 -Rafraichir la carte dynamiquement avec AJAX.
+
 -Améliorer l'affichage et faciliter le repérage des luminaires non fonctionnels selon la demo suivante:
+
 ![UpdateDemo](https://s2.gifyu.com/images/SSLmvptry.gif)
